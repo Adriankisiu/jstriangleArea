@@ -1,7 +1,9 @@
 // plik scripts.js
 
-var a = 2,
-	h = 4;
-var triangleArea = a*h/2;
+var base = prompt('Wpisz wartość podstawy trójkąta');
 
-console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
+var height = prompt('Wpisz wysokość trójkąta');
+
+var triangleArea = base*height/2;
+
+console.log('Pole trójkąta o podstawie a: ' + base + ' i wysokości h: ' + height + ' wynosi: ' + triangleArea);
